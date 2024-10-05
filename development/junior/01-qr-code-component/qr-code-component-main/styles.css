@@ -1,0 +1,57 @@
+:root {
+  /* STYLE GUIDE */
+
+  /* COLOR - SLATE */
+
+  --slate300: #d5e1ef;
+  --slate500: #68778d;
+  --slate900: #1f314f;
+  --white: #ffffff;
+
+  /* SPACING */
+
+  --spacing200: 16px;
+  --spacing300: 24px;
+  --spacing500: 40px;
+
+  /* TYPOGRAPHY */
+
+  --titleFont: "Outfit", sans-serif;
+
+  --text-preset-1: {
+    font-family: var(--titleFont);
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0px;
+  }
+
+  --text-preset-2: {
+    font-family: var(--titleFont);
+    font-size: 15px;
+    font-weight: regular;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+  }
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: var(--titleFont);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+section{
+    background-color: var(--slate300);
+    min-height: 100dvh;
+}
